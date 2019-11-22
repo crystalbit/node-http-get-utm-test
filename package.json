@@ -1,0 +1,22 @@
+{
+  "name": "http-get-utm-test",
+  "version": "1.0.0",
+  "description": "Simple script for making N http get requests with random parameters",
+  "main": "app.js",
+  "scripts": {
+    "dev": "COUNT=10 THREADS=3 TEMPLATE='https://google.com?q=*' node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crystalbit/node-http-get-utm-test.git"
+  },
+  "author": "crystalbit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crystalbit/node-http-get-utm-test/issues"
+  },
+  "homepage": "https://github.com/crystalbit/node-http-get-utm-test#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
